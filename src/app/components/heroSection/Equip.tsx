@@ -28,7 +28,7 @@ function Equip() {
         </div>
       </div>
 
-      <div className="md:w-1/2 ld:w-2/3">
+      <div className="flex flex-col items-center md:flex-none md:items-start md:w-1/2 lg:w-2/3">
         <p className="text-[12px] md:text-[14px] lg:text-[16px] text-[#8D8D8D] font-sans mb-[40px]">
           Com uma equipe altamente treinada, nós temos todos os procedimentos
           para que seu processo seja o mais tranquilo e rápido. Uma consultoria

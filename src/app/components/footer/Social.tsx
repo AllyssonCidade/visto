@@ -9,7 +9,7 @@ import {
 
 function Social() {
   return (
-    <div className="flex flex-col md:gap-2 lg:gap-4 mt-6 items-center lg:items-start">
+    <div className="flex flex-col gap-2 lg:gap-4 mt-6 items-center lg:items-start">
       <h2 className="text-base font-semibold">Siga em nossas redes:</h2>
       <div className="flex flex-row flex-wrap justify-center md:justify-start gap-2 md:gap-4">
         <Link

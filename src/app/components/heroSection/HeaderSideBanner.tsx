@@ -10,11 +10,17 @@ function HeaderSideBanner({ className }: HeaderSideBannerProps) {
   return (
     <div
       className={clsx(
-        "bg-background text-foreground bg-[url('/banner.png')] bg-cover bg-center bg-no-repeat rounded-3xl relative",
+        "bg-background text-foreground bg-[url('/banner.png')] bg-cover bg-center bg-no-repeat rounded-0 md:rounded-3xl relative",
         "h-[300px] sm:h-[400px] md:h-[600px] lg:h-[900px]",
         className
       )}
     >
+      {/*firula pro mobile*/}
+      <div
+        className="absolute inset-0 md:hidden pointer-events-none"
+        style={{ boxShadow: "inset 0 0 20px rgba(0,0,0,1)" }}
+      />
+
       <Link
         href={"/"}
         className="absolute  bg-[#F6C010] px-4 py-2 rounded-full right-2 top-2 md:right-5 md:top-5 xs:right-3 xs:top-3 sm:right-4 sm:top-4"

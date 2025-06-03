@@ -6,7 +6,7 @@ function CallToDestines() {
       <span className="bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-semibold mb-4">
         Top Destinos
       </span>
-      <h2 className="md:text-4xl lg:text-[56px] font-bold mb-4">
+      <h2 className=" text-2xl md:text-4xl lg:text-[56px] font-bold mb-4">
         Destinos mais procurados
       </h2>
       <p className="text-gray-600 max-w-xl">

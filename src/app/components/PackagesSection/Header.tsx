@@ -8,16 +8,16 @@ function Header() {
         <span className="bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-semibold mb-2 inline-block">
           Pacotes
         </span>
-        <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-semibold ">
+        <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold ">
           Confira nossos pacotes
         </h2>
       </div>
 
       <div className="flex gap-2 lg:gap-4 self-end">
-        <button className="md:w-8 lg:w-10 md:h-8 lg:h-10 flex items-center border justify-center bg-[#FFFFF] text-[#1B2543] rounded-full">
+        <button className="w-6 lg:w-10 h-6 lg:h-10 flex items-center border justify-center bg-[#FFFFF] text-[#1B2543] rounded-full">
           <FaArrowLeft />
         </button>
-        <button className="md:w-8 lg:w-10 md:h-8 lg:h-10  flex items-center justify-center bg-[#1B2543] text-white rounded-full">
+        <button className="w-6 lg:w-10 h-6 lg:h-10  flex items-center justify-center bg-[#1B2543] text-white rounded-full">
           <FaArrowRight />
         </button>
       </div>

@@ -11,7 +11,7 @@ function Description() {
         >
           Veja como funciona
         </Link>
-        <h2 className=" md:text-4xl lg:text-[46px] mb-4 pt-4  leading-tight">
+        <h2 className="text-1xl md:text-4xl lg:text-[46px] mb-4 pt-4  leading-tight">
           Sua tranquilidade não tem preço!
         </h2>
       </div>
