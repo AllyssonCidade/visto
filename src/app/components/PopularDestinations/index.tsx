@@ -7,7 +7,7 @@ import CallToDestines from "./CallToDestines";
 
 export default function PopularDestinations() {
   return (
-    <section className="bg-white flex flex-col md:pb-8 lg:pb-20 text-center">
+    <section className="bg-white flex flex-col  md:pb-8 lg:pb-20 text-center">
       <TopDesign />
       <div className="bg-white flex flex-row  text-center">
         <LeftDesign />

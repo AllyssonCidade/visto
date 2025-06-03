@@ -17,12 +17,12 @@ function HeaderSideBanner({ className }: HeaderSideBannerProps) {
     >
       <Link
         href={"/"}
-        className="absolute bg-[#F6C010] px-4 py-2 rounded-full right-5 top-5 xs:right-3 xs:top-3 sm:right-4 sm:top-4"
+        className="absolute  bg-[#F6C010] px-4 py-2 rounded-full right-2 top-2 md:right-5 md:top-5 xs:right-3 xs:top-3 sm:right-4 sm:top-4"
       >
         Tirar meu visto agora!
       </Link>
-      <div className="absolute bottom-0 left-5 flex flex-col w-8/10 py-4 lg:py-8 px-4 lg:px-4 text-white">
-        <h2 className="sm:text-5xl md:text-4xl lg:text-[44px] font-semibold font-sans">
+      <div className="absolute bottom-0 left-0 md:left-5 flex flex-col w-full md:w-8/10 py-4 lg:py-8 px-2 lg:px-4 text-white">
+        <h2 className="text-2xl md:text-4xl lg:text-[44px] font-semibold font-sans">
           Realize o seu sonho com a ajuda da Tirar Visto!
         </h2>
         <span className="text-[12px]  lg:text-[14px] font-sans">
