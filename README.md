@@ -40,13 +40,14 @@
 
 ## :dart: About
 
-Describe your project
+Projeto criado como parte de processo seletivo.
+Trata-se de uma página para o "Tirar Visto"
 
 ## :sparkles: Features
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Layout Responsivo;\
+:heavy_check_mark: Design Vindo direto do Figma, como solicitado;\
+:heavy_check_mark: Slides, Animações, Css estilizado;
 
 ## :rocket: Technologies
 
@@ -72,10 +73,10 @@ $ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/tirar_visto
 $ cd tirar_visto
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ npm run dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
