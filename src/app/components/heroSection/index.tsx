@@ -13,7 +13,7 @@ export default function HeroSection() {
           {/* banner só proMOBILE */}
           <HeaderSideBanner className="lg:w-6/11  block lg:hidden  " />
 
-          <h1 className=" font-semibold font-sans sm:pt-12 mt-4 lg:mt-0 md:pt-8 lg:pt-0 text-2xl md:text-4xl lg:text-[54px]">
+          <h1 className=" font-semibold font-sans px-4 md:px-0 sm:pt-12 mt-6 lg:mt-0 md:pt-8 lg:pt-0 text-3xl md:text-4xl lg:text-[54px]">
             Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
           </h1>
 

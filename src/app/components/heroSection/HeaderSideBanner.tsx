@@ -11,7 +11,7 @@ function HeaderSideBanner({ className }: HeaderSideBannerProps) {
     <div
       className={clsx(
         "bg-background text-foreground bg-[url('/banner.png')] bg-cover bg-center bg-no-repeat rounded-0 md:rounded-3xl relative",
-        "h-[300px] sm:h-[400px] md:h-[600px] lg:h-[900px]",
+        "h-[400px] md:h-[600px] lg:h-[900px]",
         className
       )}
     >
@@ -28,7 +28,7 @@ function HeaderSideBanner({ className }: HeaderSideBannerProps) {
         Tirar meu visto agora!
       </Link>
       <div className="absolute bottom-0 left-0 md:left-5 flex flex-col w-full md:w-8/10 py-4 lg:py-8 px-2 lg:px-4 text-white">
-        <h2 className="text-2xl md:text-4xl lg:text-[44px] font-semibold font-sans">
+        <h2 className="text-3xl md:text-4xl lg:text-[44px] font-semibold font-sans">
           Realize o seu sonho com a ajuda da Tirar Visto!
         </h2>
         <span className="text-[12px]  lg:text-[14px] font-sans">
