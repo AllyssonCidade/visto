@@ -7,11 +7,11 @@ function Description() {
       <div className="flex flex-col  md:basis-2/3 lg:basis-1/3  items-center md:items-start ">
         <Link
           href={"/"}
-          className="bg-yellow-400  text-black py-2 px-4 rounded-full md:text-xs lg:text-sm font-semibold px-0"
+          className="bg-yellow-400 text-black py-1 px-4 rounded-full  text-sm lg:text-sm font-semibold "
         >
           Veja como funciona
         </Link>
-        <h2 className="text-1xl md:text-4xl lg:text-[46px] mb-4 pt-4  leading-tight">
+        <h2 className="text-2xl md:text-4xl  font-bold md:font-normal lg:text-[46px] mb-4 pt-4  leading-tight">
           Sua tranquilidade não tem preço!
         </h2>
       </div>

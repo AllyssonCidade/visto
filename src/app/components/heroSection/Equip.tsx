@@ -17,7 +17,7 @@ function Equip() {
           className="rounded-2xl "
         />
 
-        <div className="flex items-center w-full md:w-auto justify-between md:gap-2 mt-2 md:mt-4">
+        <div className="flex items-center w-full md:w-auto justify-between gap-2 mt-2 md:mt-4">
           <div>
             <p className="font-semibold text-[16px]">Conheça a Bruna</p>
             <span className="text-sm text-[#8D8D8D] font-sans ">Ver vídeo</span>

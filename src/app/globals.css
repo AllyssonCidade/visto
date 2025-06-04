@@ -11,3 +11,31 @@
     --foreground: #ededed;
   }
 }
+
+/*SLIDES PRO MOBILE NO WHYCHOOSEUS */
+
+@keyframes slideLeftLoop {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideRightLoop {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-slideLeftLoop {
+  animation: slideLeftLoop 15s linear infinite;
+}
+
+.animate-slideRightLoop {
+  animation: slideRightLoop 15s linear infinite;
+}
