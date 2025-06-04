@@ -5,19 +5,19 @@ import Image from "next/image";
 
 function Equip() {
   return (
-    <div className="flex justify-between flex-col md:flex-row gap-4 md:gap-0 lg:px-0 px-4">
+    <div className="flex justify-between flex-col md:flex-row  md:gap-0 lg:px-0 px-4">
       {/* SÓ NO MOBILE */}
-      <div className="md:w-1/2 lg:w-1/3 items-center flex h-full flex-col self-end lg:hidden block">
+      <div className="w-full md:w-1/2 lg:w-1/3 items-center flex h-full flex-col self-end lg:hidden block">
         <Image
           src="/vdeo.png"
           alt="Logo"
-          width={280}
-          height={220}
+          width={380}
+          height={320}
           sizes="(max-width: 768px) 100vw, (max-width: 1024px) 220px, 280px"
           className="rounded-2xl "
         />
 
-        <div className="flex items-center w-full md:w-auto justify-between md:gap-2 mt-4">
+        <div className="flex items-center w-full md:w-auto justify-between md:gap-2 mt-2 md:mt-4">
           <div>
             <p className="font-semibold text-[16px]">Conheça a Bruna</p>
             <span className="text-sm text-[#8D8D8D] font-sans ">Ver vídeo</span>

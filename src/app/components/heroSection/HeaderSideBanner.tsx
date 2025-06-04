@@ -11,7 +11,7 @@ function HeaderSideBanner({ className }: HeaderSideBannerProps) {
     <div
       className={clsx(
         "bg-background text-foreground bg-[url('/banner.png')] bg-cover bg-center bg-no-repeat rounded-0 md:rounded-3xl relative",
-        "h-[400px] md:h-[600px] lg:h-[900px]",
+        "h-[360px] md:h-[600px] lg:h-[900px]",
         className
       )}
     >
